@@ -1,6 +1,6 @@
 FROM python:latest
 
-MAINTAINER Brandon Risberg <brandon.risberg@gmail.com>
+MAINTAINER Krangence <matt@krangence.uk>
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
   git \
@@ -16,7 +16,7 @@ RUN pip install \
   imgurpython \
   youtube_dl
 
-RUN git clone -b develop --single-branch https://github.com/Twentysix26/Red-DiscordBot.git /app
+RUN git clone -b develop --single-branch https://github.com/Cog-Creators/Red-DiscordBot.git /app
 
 VOLUME /app/data
 WORKDIR /app
