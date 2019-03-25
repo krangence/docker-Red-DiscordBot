@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:latest
 
 MAINTAINER Krangence <matt@krangence.uk>
 
